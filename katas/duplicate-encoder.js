@@ -1,18 +1,23 @@
 // https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript
 
-
-// console.log('muie psd');
-
-function duplicateEncode(word){
+function duplicateEncode(word) {
   // ...
-  //get if each letter is once or more times in the word
-  individualLetterCounter = [];
+  let count;
+  let encodedWord = '';
   for (let i = 0; i < word.length; i++) {
-    console.log(i);
+    count = 0;
+    for (let j = 0; j < word.length; j++) {
+      if (word[i].toLowerCase() === word[j].toLowerCase()) {
+        count++;
+      }
+    }
+    if (count === 1) {
+      encodedWord += '(';
+    } else {
+      encodedWord += ')';
+    }
   }
-
-  //create new word with the proper encoding
-
+  return encodedWord;
 }
 
-duplicateEncode('Success');
+console.log(duplicateEncode('Success'));

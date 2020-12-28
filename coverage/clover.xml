@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607706307416" clover="3.2.0">
-  <project timestamp="1607706307416" name="All files">
-    <metrics statements="21" coveredstatements="19" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3" elements="32" coveredelements="28" complexity="0" loc="21" ncloc="21" packages="2" files="3" classes="3"/>
+<coverage generated="1609185110998" clover="3.2.0">
+  <project timestamp="1609185110998" name="All files">
+    <metrics statements="33" coveredstatements="30" conditionals="12" coveredconditionals="9" methods="6" coveredmethods="6" elements="51" coveredelements="45" complexity="0" loc="33" ncloc="33" packages="2" files="4" classes="4"/>
     <package name="codewars-katas">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="sum.js" path="C:\xampp\htdocs\codewars-katas\sum.js">
@@ -11,7 +11,7 @@
       </file>
     </package>
     <package name="codewars-katas.katas">
-      <metrics statements="19" coveredstatements="17" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <metrics statements="31" coveredstatements="28" conditionals="12" coveredconditionals="9" methods="5" coveredmethods="5"/>
       <file name="is-a-number-prime.js" path="C:\xampp\htdocs\codewars-katas\katas\is-a-number-prime.js">
         <metrics statements="9" coveredstatements="7" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="cond" truecount="1" falsecount="1"/>
@@ -24,18 +24,33 @@
         <line num="16" count="2" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
       </file>
+      <file name="rgb-to-hex-conversion.js" path="C:\xampp\htdocs\codewars-katas\katas\rgb-to-hex-conversion.js">
+        <metrics statements="12" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="24" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="11" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="37" count="12" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
       <file name="stop-gninnips-my-sdrow.js" path="C:\xampp\htdocs\codewars-katas\katas\stop-gninnips-my-sdrow.js">
         <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="21" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="12" count="21" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
     </package>
   </project>
